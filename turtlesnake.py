@@ -10,10 +10,6 @@ screen = pygame.display.set_mode((x, y))
 sets up the screen size
 """
 
-import sys
-print(sys.path)
-print(sys.version)
-
 turtle = pygame.image.load(os.getcwd() + r"/turtle.png")
 cherry = pygame.image.load(os.getcwd() + "/cherry.png")
 """
